@@ -23,9 +23,9 @@ TEXT_BRIGHT = "#e0e0ff"
 BTN_HOVER   = "#1a1a2e"
 
 # ── Default durations (seconds) ─────────────────────────────────────────────
-DEFAULT_WORK  = 25 * 60
-DEFAULT_SB    =  5 * 60
-DEFAULT_LB    = 15 * 60
+DEFAULT_WORK  = 30 * 60
+DEFAULT_SB    =  7 * 60
+DEFAULT_LB    = 20 * 60
 POMODOROS_BEFORE_LB = 4
 
 # ── Canvas geometry ─────────────────────────────────────────────────────────
