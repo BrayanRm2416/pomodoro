@@ -25,7 +25,7 @@ BTN_HOVER   = "#1a1a2e"
 # ── Default durations (seconds) ─────────────────────────────────────────────
 DEFAULT_WORK  = 30 * 60
 DEFAULT_SB    =  7 * 60
-DEFAULT_LB    = 20 * 60
+DEFAULT_LB    = 15 * 60
 POMODOROS_BEFORE_LB = 4
 
 # ── Canvas geometry ─────────────────────────────────────────────────────────
@@ -153,7 +153,7 @@ class PomodoroTimer:
         labels  = ["FOCUS", "S.BREAK", "L.BREAK"]
         attrs   = ["work_time", "short_break", "long_break"]
         clrs    = [ACCENT_WORK, ACCENT_SB, ACCENT_LB]
-        defaults= [25, 5, 15]
+        defaults= [30, 7, 15]
         self._vars = []
 
         for col, (lbl, attr, clr, dflt) in enumerate(zip(labels, attrs, clrs, defaults)):
